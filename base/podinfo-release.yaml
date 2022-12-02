@@ -8,7 +8,7 @@ spec:
   releaseName: podinfo
   chart:
     spec:
-      chart: helm-chart-sources/helm-chart-test 
+      chart: helm-chart-test
       sourceRef:
         kind: HelmRepository
         name: podinfo
